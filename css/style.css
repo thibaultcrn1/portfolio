@@ -1,0 +1,16 @@
+/*
+HEADER
+*/
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: #333333;
+}
+
+.header .header-logo {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
