@@ -1,4 +1,18 @@
 /*
+GLOBAL
+*/
+.heading-site {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.COLORED {
+    height: 400px;
+    width: 100%;
+    background-color: #3498db;
+}
+
+/*
 HEADER
 */
 .header {
@@ -55,4 +69,21 @@ BANNER
 .banner .banner-content h1,
 .banner .banner-content h2 {
     color: #ffffff;
+}
+
+/*
+ABOUT
+*/
+.about .about-single-element .icon {
+    font-size: 30px;
+    text-align: center;
+}
+
+.about .about-single-element {
+    text-align: center;
+}
+
+.about .about-single-element p {
+    text-align: left;
+    margin-top: 20px;
 }
