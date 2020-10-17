@@ -107,3 +107,11 @@ FOOTER
     display: inline-block;
     list-style-type: none;
 }
+
+/*
+MODAL
+*/
+
+.own-modal {
+    padding-top: 120px;
+}

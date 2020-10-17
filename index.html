@@ -40,26 +40,25 @@
                 <div class="banner-content">
                     <h1 class="title is-1">Bienvenue sur Mon portfolio</h1>
                     <h2 class="subtitle">Découvrez mes travaux et mon univers !</h2>
-                    <button class="button is-link">Contactez-moi !</button>
+                    <button class="button is-link" id="open_modal">Contactez-moi !</button>
                 </div>
             </div>
         </div>
         <!-- BANNER -->
 
         <!-- MODAL -->
-        <div class="modal">
+        <div class="modal own-modal" id="modal_to_open">
             <div class="modal-background"></div>
             <div class="modal-card">
-                <header class="modal-card-header">
+                <header class="modal-card-head">
                     <p class="modal-card-title">Modal title</p>
-                    <button class="delete" aria-label="close"></button>
+                    <button class="delete" aria-label="close" id="close_modal"></button>
                 </header>
                 <section class="modal-card-body">
-                    <!--CONTENT-->
+                    <p>Le contenue de mon modal.</p>
                 </section>
-                <footer class="modal-card-footer">
-                    <button class="button is-success">Save changes</button>
-                    <button class="button">Cancel</button>
+                <footer class="modal-card-foot">
+                    <button class="button is-link">Save changes</button>
                 </footer>
             </div>
         </div>
