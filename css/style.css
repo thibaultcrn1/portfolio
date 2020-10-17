@@ -10,6 +10,8 @@ GLOBAL
     height: 400px;
     width: 100%;
     background-color: #3498db;
+    padding: 30px;
+    text-align: center;
 }
 
 /*
@@ -86,4 +88,22 @@ ABOUT
 .about .about-single-element p {
     text-align: left;
     margin-top: 20px;
+}
+
+/*
+FOOTER
+*/
+
+.footer .footer-information {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer .footer-information ul {
+    padding: 0px;
+}
+
+.footer .footer-information ul li {
+    display: inline-block;
+    list-style-type: none;
 }
