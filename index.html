@@ -14,6 +14,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> 
         <script src="https://kit.fontawesome.com/4a6366bf56.js" crossorigin="anonymous"></script>
         <!-- FONT -->
+
+        <!-- META -->
+        <meta name="description" content="La description de votre site | PRIMORDIAL : mettre des bons mots clés !">
+        <meta name="title" content="Titre du site internet">
+        <meta name="keywords" content="webdesign, webdeveloppeur, développeur front-end, portfolio, etc">
+        <!-- META -->
     </head>
     <!-- HEAD -->
 
@@ -136,28 +142,29 @@
                         <div class="field">
                             <label class="label">Votre nom</label>
                             <div class="control">
-                                <input class="input" type="text" placeholder="e.g Smith">
+                                <input id="name" class="input" type="text" placeholder="e.g Smith" name="name">
                             </div>
                         </div>
                         <div class="field">
                             <label class="label">Votre prénom</label>
                             <div class="control">
-                                <input class="input" type="text" placeholder="e.g Alex">
+                                <input id="firstname" class="input" type="text" placeholder="e.g Alex" name="firstname">
                             </div>
                         </div>
                         <div class="field">
                             <label class="label">Votre email</label>
                             <div class="control">
-                                <input class="input" type="text" placeholder="e.g Alex">
+                                <input id="email" class="input" type="text" placeholder="e.g Alex" name="email">
                             </div>
                         </div>
                         <div class="field">
                             <label class="label">Votre message</label>
                             <div class="control">
-                                <textarea class="textarea" placeholder="Ecrivez votre message."></textarea>
+                                <textarea id="message" class="textarea" placeholder="Ecrivez votre message." name="message"></textarea>
                             </div>
                         </div>
                     </form>
+                    <button class="button is-link" id="send_email">Envoyer</button>
                 </div>
                 <div class="footer-information">
                     <p>65 rue des développeurs web</p>
